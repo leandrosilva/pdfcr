@@ -2,6 +2,10 @@
 
 Node.js **Azure Functions** app to convert HTML to PDF using **chrome headless**.
 
+    docker run -p 8080:80 --name pdfcr_dev leandr0silva/pdfcr:0.1-dev
+
+Or build it from source:
+
     git clone https://github.com/leandrosilva/pdfcr.git
     cd pdfcr
     docker build -f Dockerfile -t pdfcr .
